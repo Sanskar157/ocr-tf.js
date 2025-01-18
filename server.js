@@ -5,6 +5,7 @@ const pdfParse = require("pdf-parse");
 const Tesseract = require("tesseract.js");
 
 const app = express();
+app.use(cors())
 const PORT = 5000;
 
 // Middleware
